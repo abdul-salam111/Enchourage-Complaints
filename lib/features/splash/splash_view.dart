@@ -1,3 +1,4 @@
+import 'package:enchourage_complaints_app/core/barrel.dart';
 import 'package:flutter/material.dart';
 
 class SplashView extends StatelessWidget {
@@ -5,6 +6,6 @@ class SplashView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: Center(child: Text('Splash View')));
+    return Scaffold(body: Center(child: AppLogo()));
   }
 }

@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(useMaterial3: true),
       themeMode: ThemeMode.light,
       home: SplashView(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
